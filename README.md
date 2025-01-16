@@ -19,12 +19,6 @@
 
 ## Installation
 
-Sure! Here is the installation part rewritten with the specific steps you provided:
-
----
-
-## Installation
-
 ### Prerequisites
 
 - Node.js (v14 or later)
