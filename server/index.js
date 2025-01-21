@@ -25,7 +25,7 @@ app.use(cors()); // Enable Cross-Origin Resource Sharing (CORS)
 app.use(express.static(path.join(__dirname, '..', 'client', 'dist'))); // Serve static files from the 'dist' folder in 'client' directory
 
 // MongoDB connection
-const mongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/tourismLogin";  // Use .env for Mongo URI if available
+const mongoURI = "mongodb://192.168.31.229:27017/tourismLogin";  // Use .env for Mongo URI if available
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch((err) => console.error('MongoDB connection error:', err));
