@@ -46,6 +46,7 @@
    - In the **server** folder, run:
      ```bash
      cd server
+     set PORT=3000
      node index.js
      ```
 
